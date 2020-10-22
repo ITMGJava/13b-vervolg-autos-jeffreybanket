@@ -18,7 +18,7 @@ De waarden van elk nieuw ```Auto``` object zijn momenteel leeg. In de vorige opg
 - Run nogmaals het programma, welke waarden zie je nu?  
 
 We willen nu graag meteen bij het instantieren van ```Auto``` objecten, de mogelijkheid hebben om een auto een ander merk te geven
-- Maak nog een constructor methode ```public Auto(String merk)```. Deze constructor heeft als input een merk. Zorg ervoor dat de auto dit merk krijgt, i.p.v. het oorspronkelijke merk
+- Maak nog een constructor methode ```public Auto(String merk)```. Deze constructor heeft als input parameter een ```String merk```. Zorg ervoor dat de auto dit merk krijgt, i.p.v. het oorspronkelijke merk
 - Instantieer nu een ```Auto``` met ```Auto tesla = new Auto("Tesla")``` en vraag alle waarden van deze auto op. Welke waarden zie je?
 
 Zojuist hebben we *overloading* toegepast op de constructor (we hebben immers twee methoden met dezelfde naam: ```Auto()``` en ```Auto(String merk)```)
